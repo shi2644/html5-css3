@@ -1,0 +1,421 @@
+html {
+  font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 16px;
+  }
+}
+.carousel {
+  width: 100%;
+}
+.carousel >ul {
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+.carousel >ul li {
+  font-size: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.carousel >ul li a img {
+  width: 100%;
+}
+.carousel .circles {
+  position: relative;
+}
+.carousel .circles >ul {
+  position: absolute;
+  width: 100%;
+  text-align: center;
+  bottom: 0.1rem;
+}
+.carousel .circles >ul >li {
+  display: inline-block;
+  width: 1rem;
+  height: 0.5rem;
+  margin: 0 0.1rem;
+  background-color: rgba(0,0,0,0.5);
+}
+.carousel .circles >ul >li.cur {
+  background-color: #d81e06;
+}
+.goods-list {
+  position: absolute;
+  top: 0;
+  padding-top: 2.5rem;
+  box-sizing: border-box;
+  left: 0;
+  width: 30%;
+  height: 100%;
+  background-color: #3c3c3c;
+}
+.goods-list h1 {
+  text-align: center;
+  margin: 1rem;
+  color: #fff;
+}
+.goods-list >ul {
+  height: 100%;
+}
+.goods-list >ul li {
+  text-align: center;
+  line-height: 2.5rem;
+}
+.goods-list >ul li a {
+  padding: 0 0.625rem;
+  color: #fff;
+}
+.hot-goods {
+  width: 100%;
+  background-color: #fff;
+}
+.hot-goods img {
+  width: 100%;
+}
+nav {
+  width: 100%;
+  height: 10rem;
+  padding-top: 1rem;
+  border-bottom: 1px solid #f8f8f0;
+  background: #fff;
+}
+nav ul {
+  width: 100%;
+  height: 100%;
+}
+nav ul li {
+  height: 50%;
+  width: 20%;
+  float: left;
+  text-align: center;
+}
+nav ul li a {
+  color: #666;
+  font-size: 12px;
+  text-decoration: none;
+}
+nav ul li a img {
+  width: 80%;
+  display: block;
+  margin: 0 auto;
+}
+.hotspot {
+  height: 1.875rem;
+  text-align: center;
+  line-height: 1.875rem;
+  background: #fff;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  padding: 0 0.625rem;
+  box-sizing: border-box;
+}
+.hotspot span {
+  float: left;
+  width: 20%;
+  height: 100%;
+  box-sizing: border-box;
+  font-size: 0.9375rem;
+  border-radius: 5px 0 0 5px;
+  background-color: #d81e06;
+  color: #fff;
+}
+.hotspot i {
+  float: left;
+  width: 10%;
+  height: 100%;
+  color: #d81e06;
+  font-style: normal;
+  border: 1px solid #d81e06;
+  border-radius: 0 5px 5px 0;
+  box-sizing: border-box;
+  padding: 0 5px;
+}
+.hotspot a {
+  float: left;
+  width: 70%;
+  color: #3c3c3c;
+  text-decoration: none;
+  overflow: hidden;
+  white-space: nowrap;
+  padding: 0 0.3125rem;
+  box-sizing: border-box;
+  text-overflow: ellipsis;
+}
+.seckill {
+  margin: 0.625rem 0;
+  background-color: #fff;
+}
+.seckill .seckill-title {
+  box-sizing: border-box;
+  padding: 0 0.625rem;
+  width: 100%;
+  height: 1.875rem;
+  background-color: #fff;
+  border-bottom: 2px solid #d81e06;
+  text-align: center;
+  line-height: 1.875rem;
+}
+.seckill .seckill-title div.time {
+  float: left;
+}
+.seckill .seckill-title div.time span {
+  border: 1px solid #dfdfdf;
+}
+.seckill .seckill-title a {
+  float: right;
+  width: 30%;
+  border-radius: 5px;
+  height: 1.875rem;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  background-color: #d81e06;
+  color: #fff;
+}
+.seckill-goods {
+  width: 100%;
+  height: 9.375rem;
+  background-color: #fff;
+  border-bottom: 2px solid #d81e06;
+  overflow: hidden;
+  position: relative;
+  padding: 5px 0;
+}
+.seckill-goods ul {
+  position: absolute;
+  width: 68.75rem;
+  overflow: hidden;
+  box-sizing: border-box;
+  top: 5px;
+  left: 0;
+}
+.seckill-goods ul li {
+  position: relative;
+  float: left;
+  width: 6.25rem;
+  height: 9.375rem;
+  border: 1px solid #d81e06;
+  box-sizing: border-box;
+  margin: 0 0.3125rem;
+}
+.seckill-goods ul i {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-image: url("../images/miao.png");
+  background-size: 100% 100%;
+  text-align: center;
+  line-height: 0.3125rem;
+  font-size: 12px;
+  display: block;
+}
+.seckill-goods ul a {
+  display: block;
+  width: 100%;
+  height: 6.25rem;
+  text-decoration: none;
+}
+.seckill-goods ul a img {
+  width: 100%;
+  height: 100%;
+}
+.seckill-goods ul div {
+  width: 100%;
+  height: 3.125rem;
+  text-align: center;
+}
+.seckill-goods ul div span {
+  font-weight: bold;
+  display: block;
+  color: #f00;
+  line-height: 1.5625rem;
+}
+.seckill-goods ul div span+span {
+  font-size: 0.75rem;
+  color: #494949;
+}
+.floor {
+  width: 100%;
+  overflow: hidden;
+  padding: 5px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.floor .floor-img {
+  width: 100%;
+  height: 1.875rem;
+  background-image: url("../images/floor-tit.png");
+  background-size: 100% 100%;
+  text-align: center;
+}
+.floor .floor-img img {
+  width: 3.75rem;
+}
+.floor .floor-goodsList {
+  width: 50%;
+  height: 5.4375rem;
+  float: left;
+  border-right: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  box-sizing: border-box;
+}
+.floor .floor-goodsList:nth-child(odd) {
+  border-right: none;
+}
+.floor .floor-goodsList a {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-size: 0.75rem;
+}
+.floor .floor-goodsList .floor-left {
+  width: 50%;
+  float: left;
+}
+.floor .floor-goodsList .floor-left h1 {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+.floor .floor-goodsList .floor-right {
+  width: 50%;
+  float: right;
+  height: 100%;
+}
+.floor .floor-goodsList .floor-right img {
+  width: 100%;
+  height: 100%;
+}
+.floor-goodsList-m {
+  width: 25%;
+  float: left;
+  border-right: 1px solid #eee;
+  box-sizing: border-box;
+  padding: 5px;
+}
+.floor-goodsList-m:nth-child(4) {
+  border-right: none;
+}
+.floor-goodsList-m a {
+  text-decoration: none;
+  color: #3c3c3c;
+  font-size: 0.75rem;
+}
+.floor-goodsList-m a h1 {
+  font-weight: bold;
+  font-size: 0.875rem;
+}
+.floor-goodsList-m a .floor-top {
+  width: 100%;
+  text-align: center;
+}
+.floor-goodsList-m a .floor-bottom {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 5px;
+}
+.floor-goodsList-m a .floor-bottom img {
+  width: 100%;
+}
+.floor-carousel {
+  width: 100%;
+  height: 5rem;
+  float: left;
+  overflow: hidden;
+}
+.floor-carousel .floor-carousel-inner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.floor-carousel .floor-carousel-inner ul {
+  position: absolute;
+  width: 200%;
+  transition: all 1s;
+  top: 0;
+  left: 0;
+}
+.floor-carousel .floor-carousel-inner ul li {
+  width: 50%;
+  height: 100%;
+  float: left;
+}
+.floor-carousel .floor-carousel-inner ul li a img {
+  width: 100%;
+}
+.hot-goods-list {
+  box-sizing: border-box;
+}
+.hot-goods-list .hot-title {
+  width: 100%;
+  height: 1.875rem;
+  background-image: url("../images/floor-tit.png");
+  background-size: 100% 100%;
+  text-align: center;
+}
+.hot-goods-list .hot-title img {
+  width: 6.25rem;
+}
+.hot-goods-list ul {
+  width: 100%;
+  padding: 5px;
+  overflow: hidden;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+.hot-goods-list ul li {
+  width: 48%;
+  float: left;
+  border: 1px solid #d81e06;
+  border-top: 5px solid #d81e06;
+  box-sizing: border-box;
+  padding: 5px;
+  margin: 1%;
+}
+.hot-goods-list ul li a {
+  color: #3c3c3c;
+  font-size: 14px;
+  text-decoration: none;
+}
+.hot-goods-list ul li a img {
+  width: 100%;
+  height: 9.375rem;
+}
+.hot-goods-list ul li a p {
+  width: 100%;
+  height: 3.125rem;
+  overflow: auto;
+}
+.hot-goods-list ul li a span {
+  display: inline-block;
+  padding: 5px;
+  background-color: #d81e06;
+  color: #fff;
+}
+.top {
+  width: 3.125rem;
+  height: 3.125rem;
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  background-image: url("../images/top.png");
+  background-size: 100% 100%;
+  z-index: 100;
+}

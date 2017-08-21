@@ -1,0 +1,165 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 16px;
+  }
+}
+body {
+  background-color: #eee;
+}
+header {
+  width: 100%;
+  height: 9%;
+  border-bottom: 1px solid #c1c1c5;
+}
+header .search {
+  width: 100%;
+  height: 3.75rem;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0.625rem 0.625rem;
+}
+header .search .classify {
+  width: 10%;
+  height: 2.1875rem;
+  float: left;
+  background-image: url("../images/go.png");
+  background-color: #3c3c3c;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+header .search .search-txt {
+  width: 80%;
+  padding: 0 1.25rem;
+  height: 2.1875rem;
+  float: left;
+  box-sizing: border-box;
+  border: 2px solid #3c3c3c;
+}
+header .search .search-but {
+  width: 10%;
+  height: 2.1875rem;
+  float: left;
+  background-image: url("../images/search.png");
+  background-color: #3c3c3c;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+.goods-list {
+  position: fixed;
+  box-sizing: border-box;
+  left: 0;
+  width: 25%;
+  height: 100%;
+  background-color: #3c3c3c;
+  text-align: center;
+  font-size: 12px;
+}
+.goods-list h1 {
+  margin: 1rem;
+  color: #fff;
+}
+.goods-list >ul {
+  height: 100%;
+}
+.goods-list >ul li {
+  line-height: 2.5rem;
+  box-sizing: border-box;
+  border-right: 5px solid transparent;
+}
+.goods-list >ul li a {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+}
+.CategoryProducts {
+  position: fixed;
+  top: 9%;
+  right: 0;
+  width: 75%;
+  height: 91%;
+  box-sizing: border-box;
+  overflow: auto;
+}
+.CategoryProducts ul {
+  width: 100%;
+  font-size: 12px;
+}
+.CategoryProducts ul li {
+  position: relative;
+  width: 48%;
+  height: 12.5rem;
+  float: left;
+  margin: 1%;
+  border: 1px solid #d81e06;
+  box-sizing: border-box;
+  border-top: 5px solid #3c3c3c;
+}
+.CategoryProducts ul li i {
+  position: absolute;
+  top: -4px;
+  left: -3px;
+  display: block;
+  width: 1.875rem;
+  height: 1.875rem;
+  background-image: url("../images/HOT.png");
+  background-size: 100% 100%;
+}
+.CategoryProducts ul li a {
+  width: 100%;
+  height: 100%;
+  color: #494949;
+}
+.CategoryProducts ul li img {
+  width: 100%;
+  height: 7.5rem;
+}
+.CategoryProducts ul li p {
+  width: 100%;
+  height: 2.5rem;
+  overflow: auto;
+}
+.CategoryProducts ul li span {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 2px 5px;
+  background-color: #d81e06;
+  color: #fff;
+}
+.top {
+  width: 3.125rem;
+  height: 3.125rem;
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  background-image: url("../images/top.png");
+  background-size: 100% 100%;
+  z-index: 100;
+}

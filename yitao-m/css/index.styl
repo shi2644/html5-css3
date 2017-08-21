@@ -1,0 +1,349 @@
+rem(a)
+  return a/16rem
+html
+ font-size 16px
+@media screen and (max-width:600px)
+  html
+    font-size 18px
+@media screen and (min-width:640px)
+  html
+    font-size 20px
+@media screen and (max-width:320px)
+  html
+    font-size 15px
+@media screen and (max-width:360px)
+  html
+    font-size 16px
+.carousel
+  width 100%
+  >ul
+    overflow hidden
+    position relative
+    height 100%
+    li
+      font-size 0
+      position absolute
+      top 0
+      left 0
+      a
+        img
+          width 100%
+  .circles
+    position relative
+    >ul
+      position absolute
+      width 100%
+      text-align center
+      bottom 0.1rem
+      >li
+        display inline-block
+        width 1rem
+        height 0.5rem
+        margin 0 0.1rem
+        background-color rgba(0,0,0,0.5);
+        &.cur
+          background-color #d81e06
+.goods-list
+  position absolute
+  top 0
+  padding-top rem(40)
+  box-sizing border-box
+  left 0
+  width 30%
+  height 100%
+  background-color #3c3c3c
+  //z-index -1
+  h1
+    text-align center
+    margin 1rem
+    color #fff
+  >ul
+    height 100%
+    li
+      text-align center
+      line-height rem(40)
+      a
+        padding 0 rem(10)
+        color #ffffff
+.hot-goods
+  width 100%
+  background-color #fff
+  img
+    width 100%
+nav
+  width 100%
+  height 10rem
+  padding-top 1rem
+  border-bottom 1px solid #f8f8f0
+  background #fff
+  ul
+    width 100%
+    height 100%
+    li
+      height 50%
+      width 20%
+      float left
+      text-align center
+      a
+        color #666666
+        font-size 12px
+        text-decoration none
+        img
+          width 80%
+          display block
+          margin 0 auto
+.hotspot
+  height rem(30)
+  text-align center
+  line-height rem(30)
+  background #ffffff
+  border-top 1px solid #eee
+  border-bottom 1px solid #eee
+  padding 0 rem(10)
+  box-sizing border-box
+  span
+    float left
+    width 20%
+    height 100%
+    box-sizing border-box
+    font-size rem(15)
+    border-radius 5px 0 0 5px
+    background-color #d81e06
+    color #fff
+  i
+    float left
+    width 10%
+    height 100%
+    color #d81e06
+    font-style normal
+    border 1px solid #d81e06
+    border-radius 0 5px 5px 0
+    box-sizing border-box
+    padding 0 5px
+  a
+    float left
+    width 70%
+    color #3c3c3c
+    text-decoration none
+    overflow hidden
+    white-space nowrap
+    padding 0 rem(5)
+    box-sizing border-box
+    text-overflow ellipsis
+.seckill
+  margin rem(10) 0
+  background-color #FFFFFF
+  .seckill-title
+    box-sizing border-box
+    padding 0 rem(10)
+    width 100%
+    height rem(30)
+    background-color #fff
+    border-bottom 2px solid #d81e06
+    text-align center
+    line-height rem(30)
+    div.time
+      float left
+      span
+        border: 1px solid #dfdfdf;
+    a
+      float right
+      width 30%
+      border-radius 5px
+      height rem(30)
+      font-size rem(15)
+      text-decoration none
+      background-color #d81e06
+      color #fff
+.seckill-goods
+  width 100%
+  height rem(150)
+  background-color #fff
+  border-bottom 2px solid #d81e06
+  overflow hidden
+  position relative
+  padding 5px 0
+  ul
+    position absolute
+    width rem(1100);
+    overflow hidden
+    box-sizing border-box
+    top 5px
+    left 0
+    li
+      position relative
+      float left
+      width rem(100)
+      height rem(150)
+      border 1px solid #d81e06
+      box-sizing border-box
+      margin 0 rem(5)
+    i
+      position absolute
+      top 0
+      left 0
+      width rem(40)
+      height rem(40)
+      background-image url("../images/miao.png")
+      background-size 100% 100%
+      text-align center
+      line-height rem(5)
+      font-size 12px
+      display block
+    a
+      display block
+      width 100%
+      height rem(100)
+      text-decoration none
+      img
+        width 100%
+        height 100%
+    div
+      width 100%
+      height rem(50)
+      text-align center
+      span
+        font-weight bold
+        display block
+        color red
+        line-height rem(25)
+      span+span
+        font-size rem(12)
+        color #494949
+.floor
+  width 100%
+  overflow hidden
+  padding 5px
+  box-sizing border-box
+  background-color #FFFFFF
+  .floor-img
+    width 100%
+    height rem(30)
+    background-image url("../images/floor-tit.png")
+    background-size 100% 100%
+    text-align center
+    img
+      width rem(60)
+  .floor-goodsList
+    width 50%
+    height rem(87)
+    float left
+    border-right 1px solid #eee
+    border-bottom 1px solid #eee
+    box-sizing border-box
+    &:nth-child(odd)
+      border-right none
+    a
+      text-decoration none
+      color #3c3c3c
+      font-size rem(12)
+    .floor-left
+      width 50%
+      float left
+      h1
+        font-weight bold
+        font-size rem(14)
+    .floor-right
+      width 50%
+      float right
+      height 100%
+      img
+        width 100%
+        height 100%
+.floor-goodsList-m
+  width 25%
+  float left
+  border-right 1px solid #eee
+  box-sizing border-box
+  padding 5px
+  &:nth-child(4)
+    border-right none
+  a
+    text-decoration none
+    color #3c3c3c
+    font-size rem(12)
+    h1
+      font-weight bold
+      font-size rem(14)
+    .floor-top
+      width 100%
+      text-align center
+    .floor-bottom
+      box-sizing border-box
+      width 100%
+      padding 5px
+      img
+        width 100%
+.floor-carousel
+  width 100%
+  height rem(80)
+  float left
+  overflow hidden
+  .floor-carousel-inner
+    width 100%
+    height 100%
+    position relative
+    ul
+      position absolute
+      width 200%
+      transition all 1s
+      top 0
+      left 0
+      li
+        width 50%
+        height 100%
+        float left
+        a
+          img
+            width 100%
+.hot-goods-list
+  box-sizing border-box
+  .hot-title
+    width 100%
+    height rem(30)
+    background-image url("../images/floor-tit.png");
+    background-size 100% 100%
+    text-align center
+    img
+      width rem(100)
+  ul
+    width 100%
+    padding 5px
+    overflow hidden
+    box-sizing border-box
+    background-color #fff
+    li
+      width 48%
+      float left
+      //height rem(230)
+      border 1px solid #d81e06
+      border-top 5px solid #d81e06
+      box-sizing border-box
+      padding 5px
+      margin 1%
+      a
+        color #3c3c3c
+        font-size 14px
+        text-decoration none
+        img
+          //width rem(180)
+          width 100%
+          height rem(150)
+        p
+          width 100%
+          height rem(50)
+          overflow auto
+        span
+          display inline-block
+          padding 5px
+          background-color #d81e06
+          color #fff
+.top
+  width rem(50)
+  height rem(50)
+  position fixed
+  bottom 10%
+  right 2%
+  background-image url("../images/top.png")
+  background-size 100% 100%
+  z-index 100

@@ -1,0 +1,98 @@
+rem(px)
+  return px/16rem
+html
+  font-size 16px
+@media screen and (max-width:600px)
+  html
+    font-size 18px
+@media screen and (min-width:640px)
+  html
+    font-size 20px
+@media screen and (max-width:320px)
+  html
+    font-size 15px
+@media screen and (max-width:360px)
+  html
+    font-size 16px
+header
+  position fixed
+  top 0
+  left 0
+  width 100%
+  height rem(60)
+  border-bottom 1px solid #c1c1c5
+  .search
+    width 100%
+    height rem(60)
+    text-align center
+    box-sizing border-box
+    background-color #f8f8f8
+    border-bottom 1px solid #ebebeb
+    padding rem(10) rem(10)
+    .classify
+      width 10%
+      height rem(35)
+      float left
+      background-image: url(../images/go.png)
+      background-color #3c3c3c
+      background-size 100% 100%
+      border none
+      border-radius 5px 0 0 5px
+    .search-txt
+      width 80%
+      padding 0 rem(20)
+      height rem(35)
+      float left
+      box-sizing border-box
+      border 2px solid #3c3c3c
+    .search-but
+      width 10%
+      height rem(35)
+      float left
+      background-image: url(../images/search.png)
+      background-color #3c3c3c
+      background-size 100% 100%
+      border none
+      border-radius 0 5px 5px 0
+.search-goods
+  width 100%
+  padding-top rem(60)
+  //padding-bottom rem()
+  ul
+    padding 5px
+    box-sizing border-box
+    li
+      width 46%
+      height rem(230)
+      float left
+      margin 2%
+      box-sizing border-box
+      border 1px solid #494949
+      padding 5px
+      border-top 5px solid #d81e06
+      a
+        color #3c3c3c
+        text-decoration none
+        img
+          width 100%
+        h1
+          width 100%
+          height rem(30)
+          font-size rem(14)
+          overflow hidden
+          text-overflow ellipsis
+          white-space nowrap
+        span
+          color #d81e06
+          font-size rem(20)
+.top
+  width rem(50)
+  height rem(50)
+  position fixed
+  bottom 10%
+  right 2%
+  background-image url("../images/top.png")
+  background-size 100% 100%
+  z-index 100
+
+

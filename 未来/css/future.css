@@ -1,0 +1,570 @@
+body,
+html {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+  background: #000;
+}
+.swiper-container {
+  width: 100%;
+  height: 100%;
+}
+.page-1,
+.page-2,
+.page-3,
+.page-4,
+.page-5,
+.page-6,
+.page-7,
+.page-8,
+.page-9,
+.page-10 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  text-align: center;
+  background-size: 100% 100%;
+}
+.page-1 {
+  background-image: url("../images/1-2.jpg");
+}
+.page-1_txt-1,
+.wire,
+.page-1_txt-2,
+.page-1_txt-3,
+.page-1_txt-4,
+.page-1_txt-5,
+.arrows,
+.light,
+.person {
+  position: absolute;
+}
+.page-1_txt-1 {
+  top: 2%;
+  left: 0;
+  right: 0;
+}
+.wire {
+  top: 17%;
+  left: 0;
+  right: 0;
+}
+.page-1_txt-2 {
+  top: 19%;
+  left: 0;
+  right: 0;
+}
+.page-1_txt-3 {
+  top: 28%;
+  left: 0;
+  right: 0;
+}
+.page-1_txt-4 {
+  top: 37%;
+  left: 0;
+  right: 0;
+}
+.page-1_txt-5 {
+  top: 46%;
+  left: 0;
+  right: 0;
+}
+.arrows {
+  top: 59%;
+  left: 0;
+  right: 0;
+}
+.light {
+  top: 60%;
+  left: 0;
+  right: 0;
+}
+.person {
+  top: 79%;
+  left: 0;
+  right: 0;
+}
+.light img {
+  animation: zoom 2s infinite linear;
+}
+.person img {
+  animation: zoom 2s infinite linear;
+}
+.page-2 {
+  background-image: url("../images/2-5.jpg");
+}
+.page-2_txt,
+.page-2_arrows,
+.page-2_leftArm,
+.page-2_rightArm,
+.aircraft,
+.page-2_electricity-1,
+.page-2_electricity-2,
+.page-2_electricity-3,
+.page-2_electricity-4 {
+  position: absolute;
+}
+.page-2_txt {
+  top: 2%;
+  left: 0;
+  right: 0;
+}
+.page-2_arrows {
+  top: 8%;
+  right: 17%;
+}
+.page-2_rightArm,
+.page-2_leftArm {
+  animation: pulse 2s ease 0s infinite;
+}
+.page-2_leftArm {
+  top: 12%;
+  left: 5%;
+}
+.page-2_rightArm {
+  top: 21%;
+  right: 4%;
+  z-index: 2;
+}
+@-webkit-keyframes fly {
+  to {
+    transform: translateX(500px);
+  }
+}
+.aircraft {
+  top: 35%;
+  right: 18%;
+  animation: fly 5s ease 2s infinite;
+  animation-fill-mode: backwards;
+}
+.page-2_electricity-1 img,
+.page-2_electricity-2 img,
+.page-2_electricity-3 img,
+.page-2_electricity-4 img {
+  width: 300px;
+}
+.page-2_electricity-1 {
+  top: 30%;
+  left: -8%;
+}
+.page-2_electricity-2 {
+  top: 25%;
+  left: 34%;
+}
+.page-2_electricity-3 {
+  top: 25%;
+  left: 34%;
+}
+.page-2_electricity-4 {
+  bottom: 27%;
+  right: 8%;
+  z-index: 5;
+}
+.page-2_electricity-4 img {
+  transform: rotateZ(-27deg);
+}
+.page-3 {
+  background: url("../images/3-6.jpg");
+}
+.page-3_txt,
+.page-3_arrows,
+.goodzilla,
+.page-3_house,
+.page-3_ignis-1,
+.page-3_ignis-2,
+.page-3_eruption,
+.page-3_fire-1,
+.page-3_fire-2,
+.page-3_fire-3 {
+  position: absolute;
+}
+.page-3_txt {
+  top: 2%;
+  left: 0;
+  right: 0;
+}
+.page-3_arrows {
+  top: 7%;
+  right: 27%;
+}
+.goodzilla {
+  bottom: 0;
+  z-index: 3;
+}
+.page-3_house {
+  bottom: 26%;
+  z-index: 2;
+}
+.page-3_ignis-1 {
+  top: 51%;
+  left: -4%;
+}
+.page-3_ignis-2 {
+  top: 52%;
+  right: -16%;
+}
+.page-3_eruption {
+  top: 22%;
+  right: 33%;
+}
+.page-3_eruption img {
+  transform: rotateZ(150deg) scale(1.5);
+}
+.page-3_fire-1 {
+  top: 42%;
+  left: -31%;
+}
+.page-3_fire-2 {
+  top: 17%;
+  left: 37%;
+}
+.page-3_fire-3 {
+  top: 35%;
+  right: 2%;
+}
+.page-4 {
+  background-image: url("../images/4-4.jpg");
+}
+.page-4_txt,
+.page-4_arrows,
+.page-4_head,
+.page-4_leftArm,
+.page-4_rightArm,
+.page-4_electricity-1,
+.page-4_electricity-2,
+.page-4_electricity-3 {
+  position: absolute;
+}
+.page-4_txt {
+  top: 2%;
+  left: 0;
+  right: 0;
+}
+.page-4_arrows {
+  top: 9%;
+  right: 24%;
+}
+.page-4_head {
+  top: 18%;
+  left: 0;
+  right: 0;
+}
+.page-4_leftArm {
+  top: 41.5%;
+  left: 1%;
+}
+.page-4_rightArm {
+  top: 41%;
+  right: -4%;
+}
+.page-4_rightArm,
+.page-4_leftArm,
+.page-4_head {
+  animation: pulse 5s ease 0s infinite;
+}
+.page-4_electricity-1 {
+  top: 17%;
+  left: 0;
+  right: 0;
+}
+.page-4_electricity-2 {
+  top: 50%;
+  left: -8%;
+}
+.page-4_electricity-3 {
+  top: 67%;
+  right: -30%;
+}
+.page-5 {
+  background: url("../images/5-2.jpg");
+}
+.page-5_txt,
+.page-5_arrows,
+.page-5_person-1,
+.page-5_person-2,
+.page-5_person-3,
+.page-5_person-4,
+.page-5_car,
+.page-5_electricity-1,
+.page-5_electricity-2,
+.page-5_electricity-3,
+.page-5_ignis-1,
+.page-5_ignis-2 {
+  position: absolute;
+}
+.page-5_txt {
+  top: 2%;
+  right: 1%;
+}
+.page-5_arrows {
+  top: 9%;
+  right: 2%;
+}
+.page-5_car {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.page-5_person-1 {
+  top: 4%;
+  left: 0;
+}
+.page-5_person-2 {
+  top: 20%;
+  right: 0;
+}
+.page-5_person-3 {
+  top: 25%;
+  left: 0;
+}
+.page-5_person-4 {
+  top: 44.5%;
+  right: 0;
+}
+.page-5_electricity-1 {
+  top: 21%;
+  left: 36%;
+}
+.page-5_electricity-1 img {
+  width: 150px;
+}
+.page-5_electricity-2 {
+  top: 23%;
+  right: 13%;
+}
+.page-5_electricity-2 img {
+  width: 150px;
+  transform: rotateZ(70deg);
+}
+.page-5_electricity-3 {
+  top: 40%;
+  left: 13%;
+}
+.page-5_electricity-3 img {
+  width: 200px;
+}
+.page-5_ignis-1 {
+  bottom: 4%;
+  left: -21%;
+}
+.page-5_ignis-2 {
+  bottom: 6%;
+  right: 28%;
+}
+.page-6 {
+  background-image: url("../images/6-2.jpg");
+}
+.page-6_txt,
+.page-6_arrows,
+.page-6_electricity-1,
+.page-6_electricity-2,
+.page-6_electricity-3,
+.page-6_electricity-4,
+.page-6_electricity-5 {
+  position: absolute;
+}
+.page-6_txt {
+  top: 30%;
+  left: 0;
+  right: 0;
+}
+.page-6_arrows {
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.page-6_electricity-1 {
+  top: 20%;
+  left: 0;
+  right: 0;
+}
+.page-6_electricity-1 img {
+  width: 200px;
+}
+.page-6_electricity-2 {
+  top: 43%;
+  left: 17%;
+}
+.page-6_electricity-2 img {
+  width: 200px;
+}
+.page-6_electricity-3 {
+  top: 33%;
+  right: 7%;
+}
+.page-6_electricity-3 img {
+  width: 200px;
+}
+.page-6_electricity-4 {
+  top: 59%;
+  left: -14%;
+}
+.page-6_electricity-4 img {
+  transform: rotateY(180deg);
+}
+.page-6_electricity-5 {
+  top: 59.5%;
+  right: -16%;
+}
+.page-7 {
+  background-image: url("../images/7-2.jpg");
+}
+.page-7_txt,
+.page-7_person,
+.page-7_arrows,
+.page-7_electricity-1,
+.page-7_electricity-2,
+.page-7_electricity-3,
+.page-7_electricity-4,
+.page-7_electricity-5 {
+  position: absolute;
+}
+.page-7_electricity-2 img,
+.page-7_electricity-3 img,
+.page-7_electricity-4 img,
+.page-7_electricity-5 img {
+  width: 200px;
+}
+.page-7_txt {
+  top: 2%;
+  right: 0;
+  left: 0;
+}
+.page-7_person {
+  top: 21%;
+  right: 0;
+  left: 0;
+}
+.page-7_arrows {
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+.page-7_electricity-1 {
+  top: 3%;
+  right: 0;
+  left: 0;
+}
+.page-7_electricity-2 {
+  top: 51%;
+  left: 32%;
+}
+.page-7_electricity-3 {
+  top: 51%;
+  left: 48%;
+}
+.page-7_electricity-4 {
+  top: 51.5%;
+  right: 46%;
+}
+.page-7_electricity-5 {
+  top: 51.5%;
+  right: 29%;
+}
+.page-8 {
+  background-image: url("../images/8-1.jpg");
+}
+.page-8_txt,
+.page-8_arrows,
+.page-8_electricity-1,
+.page-8_electricity-2,
+.page-8_electricity-3 {
+  position: absolute;
+}
+.page-8_txt {
+  top: 39%;
+  left: 0;
+  right: 0;
+}
+.page-8_arrows {
+  top: 63%;
+  left: 0;
+  right: 0;
+}
+.page-8_electricity-1 {
+  top: -7%;
+  left: 0;
+  right: 0;
+}
+.page-8_electricity-2 img,
+.page-8_electricity-3 img {
+  width: 150px;
+  transform: rotateZ(90deg);
+}
+.page-8_electricity-2 {
+  top: 36%;
+  left: 15%;
+}
+.page-8_electricity-3 {
+  top: 36%;
+  right: 17%;
+}
+.page-9 {
+  background-image: url("../images/9-1.jpg");
+}
+.page-9_txt-1,
+.page-9_txt-2,
+.page-9_txt-3,
+.page-9_txt-4,
+.page-9_arrows,
+.page-9_sword,
+.page-9_electricity {
+  position: absolute;
+}
+.page-9_txt-1 {
+  top: 10%;
+  left: 0;
+  right: 0;
+}
+.page-9_txt-2 {
+  top: 20%;
+  left: 0;
+  right: 0;
+}
+.page-9_txt-3 {
+  top: 30%;
+  left: 0;
+  right: 0;
+}
+.page-9_txt-4 {
+  top: 40%;
+  left: 0;
+  right: 0;
+}
+.page-9_arrows {
+  top: 50%;
+  left: 0;
+  right: 0;
+}
+.page-9_sword {
+  top: 55%;
+  left: 0;
+  right: 0;
+}
+.page-9_electricity {
+  top: 65%;
+  left: 0;
+  right: 0;
+}
+.page-9_electricity img {
+  width: 160px;
+  transform: rotateZ(90deg);
+}
+@-webkit-keyframes music {
+  to {
+    transform: rotate(360deg);
+  }
+}
+.btn-music-on {
+  position: absolute;
+  background: url("../images/musicBtn.png") 50% 50% no-repeat;
+  padding: 50px;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  animation: music 5s infinite linear;
+}
+.btn-music-off {
+  background: url("../images/musicBtnOff.png") 50% 50% no-repeat;
+}

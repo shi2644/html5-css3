@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link rel="stylesheet" href="../css/cssreset-min.css">
+  <link rel="stylesheet" href="../css/cart.css">
+</head>
+<body>
+  <header>
+    <a href="" onclick="javascript:history.go(-1)"></a><span>购物车</span><button id="compileBut">编辑</button>
+  </header>
+  <div class="headline"><input type="checkbox" id="checkAll">全选<span id="removeGoods" class="remove-goods">删除</span></div>
+  <section class="cart-goods" id="cartGoods">
+    <ul>
+
+    </ul>
+  </section>
+  <footer>
+    <div class="account" id="account"><span id="extendedPrice">999999</span><a href="#">立即结算</a></div>
+    <ul>
+      <li><a href="../index.html"><img src="../images/home.png" alt="">首页</a></li>
+      <li><a href="#"><img src="../images/logistics.png" alt="">物流</a></li>
+      <li><a href="#"><img src="../images/news.png" alt="">消息</a></li>
+      <li><a href="#"><img src="../images/mi.png" alt="">我的一淘</a></li>
+      <li><a href="#"><img src="../images/more.png" alt="">更多</a></li>
+    </ul>
+  </footer>
+  <script src="../js/Ajax.js"></script>
+  <script src="../js/cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,115 @@
+html {
+  font-size: 16px;
+}
+@media screen and (max-width: 600px) {
+  html {
+    font-size: 18px;
+  }
+}
+@media screen and (min-width: 640px) {
+  html {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 16px;
+  }
+}
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3.75rem;
+  border-bottom: 1px solid #c1c1c5;
+}
+header .search {
+  width: 100%;
+  height: 3.75rem;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f8f8f8;
+  border-bottom: 1px solid #ebebeb;
+  padding: 0.625rem 0.625rem;
+}
+header .search .classify {
+  width: 10%;
+  height: 2.1875rem;
+  float: left;
+  background-image: url("../images/go.png");
+  background-color: #3c3c3c;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 5px 0 0 5px;
+}
+header .search .search-txt {
+  width: 80%;
+  padding: 0 1.25rem;
+  height: 2.1875rem;
+  float: left;
+  box-sizing: border-box;
+  border: 2px solid #3c3c3c;
+}
+header .search .search-but {
+  width: 10%;
+  height: 2.1875rem;
+  float: left;
+  background-image: url("../images/search.png");
+  background-color: #3c3c3c;
+  background-size: 100% 100%;
+  border: none;
+  border-radius: 0 5px 5px 0;
+}
+.search-goods {
+  width: 100%;
+  padding-top: 3.75rem;
+}
+.search-goods ul {
+  padding: 5px;
+  box-sizing: border-box;
+}
+.search-goods ul li {
+  width: 46%;
+  height: 14.375rem;
+  float: left;
+  margin: 2%;
+  box-sizing: border-box;
+  border: 1px solid #494949;
+  padding: 5px;
+  border-top: 5px solid #d81e06;
+}
+.search-goods ul li a {
+  color: #3c3c3c;
+  text-decoration: none;
+}
+.search-goods ul li a img {
+  width: 100%;
+}
+.search-goods ul li a h1 {
+  width: 100%;
+  height: 1.875rem;
+  font-size: 0.875rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.search-goods ul li a span {
+  color: #d81e06;
+  font-size: 1.25rem;
+}
+.top {
+  width: 3.125rem;
+  height: 3.125rem;
+  position: fixed;
+  bottom: 10%;
+  right: 2%;
+  background-image: url("../images/top.png");
+  background-size: 100% 100%;
+  z-index: 100;
+}
